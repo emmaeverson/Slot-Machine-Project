@@ -1,4 +1,4 @@
---------run slot machine symbols-------------
+#run slot machine symbols
 get_symbols <- function() {
   wheel <- c("DD", "7", "BBB", "BB", "B", "C", "0")
   sample(wheel, size = 3, replace = TRUE,
